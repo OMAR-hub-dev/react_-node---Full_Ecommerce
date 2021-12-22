@@ -1,0 +1,27 @@
+{
+  "name": "react_-node---full_ecommerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "react_ node - Full_Ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch back-end --exec node --experimental-modules back-end/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OMAR-hub-dev/react_-node---Full_Ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OMAR-hub-dev/react_-node---Full_Ecommerce/issues"
+  },
+  "homepage": "https://github.com/OMAR-hub-dev/react_-node---Full_Ecommerce#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

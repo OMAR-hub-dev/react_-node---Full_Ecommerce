@@ -23,11 +23,14 @@ body{
 .bg-primary{
     background-color: var(--pink)!important;
 }
+.bg-gray{
+    background-color: #D9D2D2;
+}
 
 .btn:not(.nav-btns button){
     background-color: #fff;
     color: rgb(85, 85, 85);
-    padding: 10px 28px;
+    /* padding: 5px 14px; */
     border-radius: 25px;
     border: 1px solid rgb(85, 85, 85);
 }
@@ -36,6 +39,32 @@ body{
     color: #fff;
     border-color: var(--pink);
 }
+/* commmon */
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff8000;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  li {
+    margin-top: 1rem;
+  }
+/* end commmon */
+
 
 /* text color */
 .text-primary{
@@ -83,6 +112,22 @@ body{
     margin: 0.1rem;
 }
 
+/* Card */
+.card {
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    margin: 1rem;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .card-body > * {
+    margin-bottom: 0.5rem;
+  }
+  .price {
+    font-size: 2rem;
+  }
 /* collection */
 .active-filter-btn{
     background-color: var(--pink)!important;
